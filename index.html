@@ -11,6 +11,10 @@
         <h1>Bienvenida al Curso de Desarrollo de Aplicaciones Web</h1>
         
         <button onclick="mostrarBienvenida()">Mensaje de Bienvenida</button>
+        
+        <div style="text-align: center; margin-bottom: 2rem;">
+            <a href="horoscopos.html" class="boton-horoscopo">✨ Ver Tarea de Horóscopos</a>
+        </div>
 
         <h2>Objetivos del Curso</h2>
         <div class="objetivos">
@@ -80,6 +84,18 @@
                 <p><strong>Carrera:</strong> Ingeniería en Ciencias de la Computación</p>
                 <p><strong>Email:</strong> ryhard.enrique@estudiante.buap.mx</p>
                 <p><strong>Rol:</strong> Estudiante</p>
+                
+                <div class="ejemplo-datalist">
+                    <label for="lenguajes"><strong>Ejemplo Datalist:</strong> Elige tu lenguaje:</label>
+                    <input list="lenguajes-prog" id="lenguajes" name="lenguaje" placeholder="Escribe o selecciona...">
+                    <datalist id="lenguajes-prog">
+                        <option value="HTML5">
+                        <option value="CSS3">
+                        <option value="JavaScript">
+                        <option value="Python">
+                        <option value="C++">
+                    </datalist>
+                </div>
             </div>
 
             <div class="integrante">
